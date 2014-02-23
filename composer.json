@@ -1,0 +1,17 @@
+{
+    "name": "kbrabrand/zf2-swagger-ui",
+    "description": "Swagger UI module for ZF2",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/kbrabrand/zf2-swagger-ui",
+    "keywords": ["swagger", "swagger-ui", "zf2"],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SwaggerUI": "src/"
+        }
+    }
+}
