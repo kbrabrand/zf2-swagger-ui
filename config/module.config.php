@@ -3,7 +3,7 @@
 return array(
     'controllers' => array(
         'invokables' => array(
-            'SwaggerUI\Controller\Index' => 'SwaggerUI\Controller\IndexController',
+            'SwaggerUI\Controller\Swagger' => 'SwaggerUI\Controller\SwaggerController',
         ),
     ),
     'router' => array(
@@ -13,7 +13,8 @@ return array(
                 'options' => array(
                     'route' => '/api/swagger',
                     'defaults' => array(
-                        'controller' => 'SwaggerUI\Controller\Index'
+                        'controller' => 'SwaggerUI\Controller\Swagger',
+                        'action' => 'index'
                     )
                 )
             )

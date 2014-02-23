@@ -4,16 +4,18 @@ namespace SwaggerUI\Controller;
 use Zend\Mvc\Controller\AbstractActionController,
     Zend\View\Model\ViewModel;
 
-class IndexController extends AbstractActionController
+class SwaggerController extends AbstractActionController
 {
     /**
      * Display the SwaggerUI interface
      *
      * @return ViewModel
      */
-    public function displayAction()
+    public function indexAction()
     {
         $viewModel = new ViewModel();
-        return $viewModel->setTemplate('index.phtml');
+        $viewModel->setTerminal(true);
+
+        return $viewModel->setTemplate('swagger-ui.phtml');
     }
 }
