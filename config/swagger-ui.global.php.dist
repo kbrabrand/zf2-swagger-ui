@@ -3,10 +3,9 @@
 return array(
     'swagger-ui' => array(
         /**
-         * Default docs endpoint
-         */
-        'docs-endpoint' => array(
-            'http://example.com',
-        ),
+        * Default docs endpoint
+        */
+        'docs-endpoint' => 'http://example.com'
     )
 );
+
