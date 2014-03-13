@@ -5,7 +5,7 @@ return array(
         /**
         * Default docs endpoint
         */
-        'docs-endpoint' => 'http://example.com'
+        'swagger-json-url' => 'http://example.com'
     )
 );
 
